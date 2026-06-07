@@ -1,0 +1,27 @@
+{
+  "AgentRegistry": "0x3a7C05101aC0Bb99e06026855459d376d7906f15",
+  "ReputationRegistry": "0xDf2Fbb3fa60ebB1214b782697707cEec14Ae4F82",
+  "Oracle": "0x1C280993F1423dc3DC050aFE5bfe5FbBDb7b05c3",
+  "BudgetCaveat": "0x4F592cFD13cb994f31B27C8f3EBa78Fba425d7Eb",
+  "TimestampCaveat": "0xC9cCb6c095C7C7fAc703A31f477577D66Ec4d9E6",
+  "ReputationGatedCaveat": "0xaa2fF6300E150237D11eBA730cB2F7EFde8ebfa0",
+  "ActionScopeCaveat": "0x374ED2aFb10454e712799F8fe4B5ed9535F40478",
+  "AuthorityLeaseRegistry": "0x5D20459A2C49D5Ba7E5aB0389baaAbFe6F58f2a4",
+  "DelegationManager": "0xdb9B1e94B5b69Df7e401DDbedE43491141047dB3",
+  "deployer": "0x98a738D21A0EFF97Ee2e68508CD921444553fe0e",
+  "network": "base",
+  "chainId": 8453,
+  "deployedAt": "2026-06-12T06:52:50.188Z",
+  "demoAgentIds": {
+    "coordinator": 1,
+    "research": 2,
+    "audit": 3,
+    "report": 4,
+    "monitor": 5,
+    "executor": 6,
+    "counsel": 7,
+    "reputation": 8,
+    "intelligence": 9,
+    "reflection": 10
+  }
+}
