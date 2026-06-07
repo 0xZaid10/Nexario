@@ -1,0 +1,65 @@
+node_modules/
+dist/
+.env
+.env.backup
+*.db
+*.db-shm
+*.db-wal
+
+# Contracts
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+contracts/node_modules/
+
+# Drizzle
+src/db/migrations/meta/
+
+package-lock.json
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# Debug / test scripts
+check-agent-wallets.mts
+check-approval.mts
+check-capabilities.mts
+check-caps2.mts
+check-contracts.ts
+check-owner.mts
+check-rep-oracle.mts
+check-rep.mts
+check-rep2.mts
+check-reputation.mts
+
+debug-alchemy.mts
+debug-decode-tx.mts
+debug-env-runtime.mts
+debug-exact-call.mts
+debug-hash-used.mts
+debug-hash.mts
+debug-oracle.mts
+debug-oracle2.mts
+debug-rep-owner.mts
+debug-signing-key.mts
+debug-write.mts
+
+send-to-user.mts
+
+sweep-agents.mts
+sweep-all.mjs
+sweep-all.mts
+
+test-feedback.mts
+test-write-tag.mts
+
+# SQLite database
+nexario.db
+nexario.db-shm
+nexario.db-wal

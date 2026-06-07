@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022"],
+    "outDir": "dist",
+    "rootDir": ".",
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "paths": {
+      "@/types/*": ["./src/types/*"],
+      "@/config/*": ["./src/config/*"],
+      "@/db/*": ["./src/db/*"],
+      "@/lib/*": ["./src/lib/*"],
+      "@/sdk/*": ["./src/sdk/*"],
+      "@/agents/*": ["./src/agents/*"],
+      "@/services/*": ["./src/services/*"],
+      "@/api/*": ["./src/api/*"]
+    }
+  },
+  "include": ["src/**/*", "telegram/**/*"],
+  "exclude": ["node_modules", "dist", "contracts"]
+}
