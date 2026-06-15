@@ -52,21 +52,7 @@ Nexario is an on-chain agent orchestration platform. Users sign once with MetaMa
 | Coordinator → sub-agent redelegation (ERC-7710 chain) | [`src/agents/coordinator.ts`](src/agents/coordinator.ts) |
 | Sub-delegation builder with scoped caveats | [`src/lib/delegation/build.ts`](src/lib/delegation/build.ts) |
 | Per-agent delegation tracking across pipeline | [`src/services/delegationTracker.ts`](src/services/delegationTracker.ts) |
-| Delegation flow integration test | [`scripts/testDelegationFlow.ts`](scripts/testDelegationFlow.ts) |
-
-### ERC-8004 Agent Registry
-
-| Usage | File |
-|-------|------|
-| AgentRegistry smart contract (ERC-8004 NFTs) | [`contracts/src/registry/AgentRegistry.sol`](contracts/src/registry/AgentRegistry.sol) |
-| ReputationRegistry smart contract | [`contracts/src/registry/ReputationRegistry.sol`](contracts/src/registry/ReputationRegistry.sol) |
-| IERC8004 interface | [`contracts/src/interfaces/IERC8004.sol`](contracts/src/interfaces/IERC8004.sol) |
-| On-chain agent indexer (event sync) | [`src/lib/erc8004/indexer.ts`](src/lib/erc8004/indexer.ts) |
-| Agent registry reader (decode base64 URI) | [`src/lib/erc8004/registry.ts`](src/lib/erc8004/registry.ts) |
-| Agent discovery (filter by capability + reputation) | [`src/lib/erc8004/discovery.ts`](src/lib/erc8004/discovery.ts) |
-| Reputation reads from ReputationRegistry | [`src/lib/erc8004/reputation.ts`](src/lib/erc8004/reputation.ts) |
-| Agent registration script | [`contracts/scripts/registerAgents.ts`](contracts/scripts/registerAgents.ts) |
-| Deploy contracts script | [`contracts/scripts/deploy.ts`](contracts/scripts/deploy.ts) |
+| Delegation flow integration test | [`scripts/testDelegationFlow.ts`](scripts/testDelegationFlow.ts) | |
 
 ### x402
 
